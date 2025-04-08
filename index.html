@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Hi, I'm Mariam!</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="intro-text">I'm a web enthusiast learning JavaScript and building cool things online.</p>
+      <button onclick="changeText()">Update Bio</button>
+      <button onclick="changeStyle()">Change Theme</button>
+      <input type="text" id="new-skill" placeholder="Type a skill" /> <button onclick="addItem()">Add Skill</button>
+      <button onclick="removeItem()">Remove Skill</button>
+    </section>
+
+    <article>
+      <h2>My Skills</h2>
+      <ul id="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mariams's Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
